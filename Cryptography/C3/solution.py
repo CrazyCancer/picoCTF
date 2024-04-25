@@ -30,7 +30,7 @@ for i in range(len(chars)):
         print chars[i] #prints
         b += 1 / 1
 
-
+#Đến đây chúng ta chỉ cần viết lại chương trình và input giống như trên là được
 #tôi đọc file input với nội dung giống như trên
 with open("input.txt", "r") as file:
     chars = file.read()
