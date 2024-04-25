@@ -1,0 +1,2 @@
+cmp -bl breadth.v1 breadth.v2 (so sánh hai tệp nhi phân vs nhau để tìm byte khác)
+ta thấy ngay địa chỉ 610380 = 0x9504 ta tìm được flag = picoCTF{VnDB2LUf1VFJkdfDJtdYtFlMexPxXS6X}

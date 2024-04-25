@@ -1,0 +1,25 @@
+
+cat test.S | cut -d ':' -f2 > chal.s 
+dùng để xóa địa chỉ của mỗi dòng(vd như <+0>) rồi copy vào chal.s
+copy file vào chal.s
+
+dùng lệnh nano chal.s để truy cấp vào chỉnh sửa
+thêm 2 dòng này vào file 
+.intel_syntax noprefix
+.global asm4
+
+sau đó các dòng điều kiện như jne    0x514 <asm4+23> thì chuyển thành asm4+23
+
+tiếp đến tạo 1 file ct C có tên là s.c:
+#include <stdio.h>
+int main(){
+printf("Flag: 0x%x\n", asm4("picoCTF_724a2"));
+}
+
+tiếp đến chạy lệnh để biên dịch chương trình:
+gcc -m32 -c chal.s -o chal.o
+gcc -m32 -c s.c -o s.c -w
+gcc -m32 -o a.out s.c chal.s(in kết quả vào tệp a.out)
+
+flag: 0x20c
+				

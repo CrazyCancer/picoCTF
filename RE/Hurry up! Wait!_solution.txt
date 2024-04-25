@@ -1,0 +1,43 @@
+chạy file bằng ida64
+xem hàm sub_298A
+push    rbp
+.text:000000000000298B                 mov     rbp, rsp
+.text:000000000000298E                 mov     rdi, 38D7EA4C68000h
+.text:0000000000002998                 call    _ada__calendar__delays__delay_for
+.text:000000000000299D                 call    sub_2616
+.text:00000000000029A2                 call    sub_24AA
+.text:00000000000029A7                 call    sub_2372
+.text:00000000000029AC                 call    sub_25E2
+.text:00000000000029B1                 call    sub_2852
+.text:00000000000029B6                 call    sub_2886
+.text:00000000000029BB                 call    sub_28BA
+.text:00000000000029C0                 call    sub_2922
+.text:00000000000029C5                 call    sub_23A6
+.text:00000000000029CA                 call    sub_2136
+.text:00000000000029CF                 call    sub_2206
+.text:00000000000029D4                 call    sub_230A
+.text:00000000000029D9                 call    sub_2206
+.text:00000000000029DE                 call    sub_257A
+.text:00000000000029E3                 call    sub_28EE
+.text:00000000000029E8                 call    sub_240E
+.text:00000000000029ED                 call    sub_26E6
+.text:00000000000029F2                 call    sub_2782
+.text:00000000000029F7                 call    sub_28EE
+.text:00000000000029FC                 call    sub_23A6
+.text:0000000000002A01                 call    sub_240E
+.text:0000000000002A06                 call    sub_233E
+.text:0000000000002A0B                 call    sub_23A6
+.text:0000000000002A10                 call    sub_2372
+.text:0000000000002A15                 call    sub_2206
+.text:0000000000002A1A                 call    sub_23A6
+.text:0000000000002A1F                 call    sub_2956
+.text:0000000000002A24                 nop
+.text:0000000000002A25                 pop     rbp
+.text:0000000000002A26                 retn
+
+vào sub_2616 xem dòng lea đầu tiên 
+lea rax, unk_2CD8 
+vào unk_2CD8 ta thấy nó là chữ "p"
+
+tương với với các call còn lại ta tìm được flag là:
+picoCTF{d15a5m_ftw_dfbdc5d}
