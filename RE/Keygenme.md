@@ -1,5 +1,6 @@
 # Keygenme
 file: https://artifacts.picoctf.net/c/53/keygenme
+
 Trước tiên ta sẽ kiểm tra bằng ***Detect It Easy***
 ![image](https://hackmd.io/_uploads/HyrUvJnv0.png)
 Vì là ELF64 nên tôi sẽ mở nó bằng IDA64
