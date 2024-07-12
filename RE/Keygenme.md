@@ -143,7 +143,7 @@ wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
 ```
 
-Sau cài được thư viện thì tôi mở file bằng IDA cho linux (có lẽ các bạn sẽ thắc mắc tại sao mình lại mở thêm IDA thì do là trên windows mình có bản Pro còn linux chỉ là bản free)
+Sau cài được thư viện thì tôi mở file bằng IDA cho linux (có lẽ các bạn sẽ thắc mắc tại sao mình lại mở thêm IDA thì do trên linux là bản free và mình vừa cài thư viện trên linux)
 
 ```c=
 __int64 __fastcall main(int a1, char **a2, char **a3)
