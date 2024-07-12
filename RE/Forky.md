@@ -39,5 +39,7 @@ v4 ở đây là DWORD nên tôi đã thử chuyển từ QWORD sang DWORD
 
 ![image](https://hackmd.io/_uploads/BJvqEh0wC.png)
 ![image](https://hackmd.io/_uploads/HJBjV3Cv0.png)
+![image](https://hackmd.io/_uploads/HkU-B3RDC.png)
+
 
 Và số nguyên cuối cùng này chính xác là flag chúng ta cần tìm
