@@ -7,7 +7,7 @@ The name of the game is speed. Are you quick enough to solve this problem and ke
 
 Vẫn như cách làm mọi khi, trước tiên mình sẽ kiểm tra bằng **detect it easy**
 
-![image](https://hackmd.io/_uploads/rJvM50kuA.png)
+<img src="./RE/f173adcc-b7ce-4b76-bb36-f55e81574c0e.jpg">
 
 Chúng ta sẽ mở file bằng IDA64 
 
