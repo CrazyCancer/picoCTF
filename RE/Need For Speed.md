@@ -29,4 +29,5 @@ Sau khi xem một lượt sơ qua thì mình nhận thấy rằng hàm `get_key(
 Có vẻ như trước khi tạo `key` thì nó sẽ qua quá trình kiểm tra nên mình sẽ debug để kiểm tra
 
 ![image](https://hackmd.io/_uploads/BkGHlyg_R.png)
+
 Mình chỉ cần `run` và flag đã xuất hiện
