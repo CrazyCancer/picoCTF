@@ -40,6 +40,4 @@ v4 ở đây là DWORD nên tôi đã thử chuyển từ QWORD sang DWORD
 ![image](https://hackmd.io/_uploads/BJvqEh0wC.png)
 ![image](https://hackmd.io/_uploads/HJBjV3Cv0.png)
 
-Do phần ảnh bị lỗi nhưng chưa khắc phục được nên các bạn cứ thử bằng calculator trên máy tính là sẽ được
-
 Và số nguyên cuối cùng này chính xác là flag chúng ta cần tìm
