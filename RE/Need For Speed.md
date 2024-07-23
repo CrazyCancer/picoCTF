@@ -25,6 +25,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 Sau khi xem một lượt sơ qua thì mình nhận thấy rằng hàm `get_key()` sẽ tạo `key` và hàm `print_flag()` sẽ lấy `key` này để giải mã và in ra flag
 
 ![image](https://hackmd.io/_uploads/HJCqjRkd0.png)
+
 Có vẻ như trước khi tạo `key` thì nó sẽ qua quá trình kiểm tra nên mình sẽ debug để kiểm tra
 
 ![image](https://hackmd.io/_uploads/BkGHlyg_R.png)
