@@ -7,7 +7,7 @@ The name of the game is speed. Are you quick enough to solve this problem and ke
 
 Vẫn như cách làm mọi khi, trước tiên mình sẽ kiểm tra bằng **detect it easy**
 
-<img src="./RE/f173adcc-b7ce-4b76-bb36-f55e81574c0e.png">
+![image](https://hackmd.io/_uploads/rJvM50kuA.png)
 
 Chúng ta sẽ mở file bằng IDA64 
 
@@ -29,4 +29,3 @@ Có vẻ như trước khi tạo `key` thì nó sẽ qua quá trình kiểm tra 
 
 ![image](https://hackmd.io/_uploads/BkGHlyg_R.png)
 Mình chỉ cần `run` và flag đã xuất hiện
-
